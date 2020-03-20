@@ -2,13 +2,7 @@ import React from 'react';
 import './DeliveryList.css';
 import DeliveryCard from '../DeliveryCard';
 
-function DeliveryList ({ deliveries }) {
-
-  const sortDeliveries = () => {
-    console.log('i\'m sorting')
-  }
-
-  const deliveriesArray = Object.values(deliveries);
+function DeliveryList ({ deliveries, sortDeliveries }) {
 
   return (
     <div className="delivery-list-container">
@@ -22,7 +16,7 @@ function DeliveryList ({ deliveries }) {
 
       </div>
       <div className="delivery-list">
-        {deliveriesArray.map((delivery, index) => {
+        {deliveries.map((delivery, index) => {
           return <DeliveryCard delivery={delivery} key={index}></DeliveryCard>
         })}
       </div>
