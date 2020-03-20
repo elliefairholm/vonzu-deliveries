@@ -1,0 +1,15 @@
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.title {
+  color: #f1ff00;
+  font-weight: 900;
+  justify-self: center;
+  margin: 0;
+  font-size: 2rem;
+}
