@@ -1,7 +1,6 @@
 .delivery-details-container {
   display: flex;
   flex-direction: column;
-  /* display: none; */
   padding: 10px 0;
   border-bottom: 1px #3366ff solid;
 
