@@ -10,7 +10,6 @@ function DeliveryCard ({ delivery }) {
   let details;
 
   const displayDetails = () => {
-    console.log('euihrejf')
     setShowDetails(!showDetails);
   }
 

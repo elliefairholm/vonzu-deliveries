@@ -12,7 +12,6 @@ function App () {
 
   const [deliveries, setDeliveries] = useState(deliveriesArray)
 
-
   const sortDeliveries = () => {
     let newDeliveries = deliveries.slice()
     setDeliveries(newDeliveries.sort((a, b) => {

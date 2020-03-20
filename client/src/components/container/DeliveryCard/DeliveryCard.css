@@ -16,3 +16,8 @@
 .up {
   transform: scaleY(-1)
 }
+
+.bold {
+  font-weight: 900;
+  color: grey;
+}

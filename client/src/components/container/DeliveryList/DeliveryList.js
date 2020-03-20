@@ -13,7 +13,6 @@ function DeliveryList ({ deliveries, sortDeliveries }) {
         <p className="title sort" onClick={sortDeliveries}>
           Sort
         </p>
-
       </div>
       <div className="delivery-list">
         {deliveries.map((delivery, index) => {
