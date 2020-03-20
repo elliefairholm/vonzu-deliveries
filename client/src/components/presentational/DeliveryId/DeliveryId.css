@@ -1,0 +1,14 @@
+.delivery-id-container {
+  border-bottom: 1px #3366ff solid;
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 1.85fr 5fr 0.5fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  height: 15px;
+  margin-right: 5%;
+}
