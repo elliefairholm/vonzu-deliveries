@@ -1,0 +1,11 @@
+.header {
+  background: #3366ff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.logo-container {
+  margin-left: 2.5%;
+}
