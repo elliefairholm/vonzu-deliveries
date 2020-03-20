@@ -20,11 +20,18 @@
 
 .title {
   width: 50%;
-  color: #f1ff00;
   font-weight: 900;
   margin: 0;
   font-size: 2rem;
   text-align: center;
+}
+
+.yellow {
+  color: #f1ff00;
+}
+
+.sort {
+  color: grey;
 }
 
 .delivery-list {

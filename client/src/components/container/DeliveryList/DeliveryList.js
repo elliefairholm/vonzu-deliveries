@@ -13,7 +13,7 @@ function DeliveryList ({ deliveries }) {
   return (
     <div className="delivery-list-container">
       <div className="title-bar">
-        <p className="title">
+        <p className="title yellow">
           Upcoming Deliveries...
         </p>
         <p className="title sort" onClick={sortDeliveries}>
