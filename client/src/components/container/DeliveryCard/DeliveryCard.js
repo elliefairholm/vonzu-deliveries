@@ -21,10 +21,10 @@ function DeliveryCard ({ delivery }) {
 
   return (
     <div className="delivery-card">
-      <div className="delivery-id-container" onClick={displayDetails}>
+      <div className="delivery-id-container" onClick={displayDetails} data-testid="delivery-id-container">
         <p className="bold">Expedition Id: </p>
-        <p>{delivery.id}</p>
-        <img className={!showDetails ? "arrow" : "up arrow"} alt="Arrow" src={arrow}></img>
+        <p data-testid="delivery-id">{delivery.id}</p>
+        <img className={!showDetails ? "arrow" : "up arrow"} alt="Arrow" src={arrow} data-testid="delivery-arrow"></img>
       </div>
       {details}
     </div >

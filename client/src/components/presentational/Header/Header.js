@@ -5,7 +5,7 @@ import logo from '../../../assets/logo.png'
 
 function Header () {
   return (
-    <div className="header">
+    <div className="header" data-testid="header">
       <div className="logo-container">
         <img src={logo} alt="Vonzu Logo" />
       </div>

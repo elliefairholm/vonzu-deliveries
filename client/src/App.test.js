@@ -1,9 +1,27 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test.only('renders the header', () => {
+
+  // Given
+  render(<App />);
+
+  // When
+  const header = screen.getByTestId('header');
+
+  // Then
+  expect(header).toBeInTheDocument();
+});
+
+test.only('renders the delivery list', () => {
+
+  // Given
+  render(<App />);
+
+  // When
+  const deliveryList = screen.getByTestId('delivery-list-container');
+
+  // Then
+  expect(deliveryList).toBeInTheDocument();
 });

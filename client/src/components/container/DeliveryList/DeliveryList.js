@@ -5,12 +5,12 @@ import DeliveryCard from '../DeliveryCard';
 function DeliveryList ({ deliveries, sortDeliveries }) {
 
   return (
-    <div className="delivery-list-container">
+    <div className="delivery-list-container" data-testid="delivery-list-container">
       <div className="title-bar">
         <p className="title yellow">
           Upcoming Deliveries...
         </p>
-        <p className="title sort" onClick={sortDeliveries}>
+        <p className="title sort" onClick={sortDeliveries} data-testid="sort">
           Sort
         </p>
       </div>
